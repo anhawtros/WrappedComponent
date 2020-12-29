@@ -1,10 +1,12 @@
 # WrappedComponent
-/* Expose canUseDOM so tests can monkeypatch it
+/** Expose canUseDOM so tests can monkeypatch it
 * You may only call rewind() on the server.
 * Call peek() to read the current state.
 * Expected handleStateChangeOnClient to be a 
-"mountedInstances"
-*/
+* "mountedInstances"
+**/
+
+
 componentWillMount; {
         function componentWillMount() {
         push(this);
